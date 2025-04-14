@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camp With Care Links</title>
+    <link rel="icon" type="image/png" href="campwithcareparikhi.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #faf6f2;
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            width: 100%;
+            max-width: 400px;
+            background: white;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .profile p {
+            font-size: 14px;
+            color: #777;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .link {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            background: #fdeedc;
+            color: #333;
+            padding: 20px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+             
+            transition: 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            text-align: center;
+            width: 100%;
+        }
+        .link:hover {
+            background: #fbd3a8;
+        }
+        .link img {
+            width: 100%;
+            max-width: 300px;
+             
+        }
+        .link span {
+            flex-grow: 1;
+            flex-direction: column;
+            text-align: center;
+             
+        }
+        /* Embed Container for 9:16 without scrolling */
+        .embed-container {
+            width: 100%;
+            height: 600px; /* Fixed 9:16 aspect ratio for max-width 400px */
+            overflow: hidden;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .embed-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 10px;
+        }
+        .block {
+    display: block;
+    margin: 5px 0;
+    
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="campwithcareparikhi.png" alt="Profile">
+            <p>Camp with Care,Parikhi Beach Resort</p>
+        </div>
+        <!-- <div class="embed-container">
+            <iframe src="https://www.instagram.com/reel/DGqhb06SLjU/embed" frameborder="0" allowfullscreen></iframe>
+        </div> -->
+        
+        <br><br>
+        <div class="links">
+        <a class="link">
+                 
+                <span class="block">Wifi: Camp with Care, Dublagadi</span>
+                <span class="block">Password: Air@37969</span>
+            </a>
+             
+
+            <a href="" class="link">
+                <img src="wifi_qr_code.png" alt="Wifi">
+                
+            </a>
+        </div>
+    </div>
+</body>
+</html>
